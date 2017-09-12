@@ -37,6 +37,7 @@ def reverse(head,k):
     head.next = prev
     prev = head
     head = future
+    count += 1
   
   if future !=None: 
     saveHead.next = reverse(future,k)
