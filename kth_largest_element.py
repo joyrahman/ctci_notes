@@ -6,7 +6,7 @@ def find_kth_largest(array, pos):
     # logical position will be pos-1, indexed from 0
     # start 0 
     # end : len(array) - 1
-    p = find( array, pos-1, 0, len(array)-1)
+    p = find( array, pos-1, 0, len(array))
     return array[p]
 
 
