@@ -27,10 +27,12 @@ class Solution(object):
 
 
 def main():
-    test = [[11011], [10000], [00001], [11011]]
-
+    test = [[11000], [11000], [00011], [00011]]
+    test2 = [[11011],[10000], [00001], [11011]]
     S = Solution()
     print S.numDistinctIslands(test)
+    S2 = Solution()
+    print S2.numDistinctIslands(test2)
 
 
 
